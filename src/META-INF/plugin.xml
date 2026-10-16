@@ -2,10 +2,44 @@
   <id>uk.co.joshdonnell.osaka-jade</id>
   <name>Osaka Jade Theme</name>
   <version>1.0.0</version>
-  <vendor email="hello@joshdonnell.co.uk">Josh Donnell</vendor>
-  <description>Omarchy's Osaka Jade palette as a dark Islands theme for PhpStorm and other JetBrains IDEs, with an editor color scheme tuned for PHP, Laravel and Blade.</description>
-  <idea-version since-build="253"/>
+  <vendor email="hello@joshdonnell.co.uk" url="https://github.com/joshdonnell/osaka-jade-phpstorm">Josh Donnell</vendor>
+  <idea-version since-build="262"/>
   <depends>com.intellij.modules.platform</depends>
+
+  <description><![CDATA[
+    <p>A dark theme built from <a href="https://omarchy.org">Omarchy's</a> Osaka Jade palette: deep jade backgrounds, warm cream text and bright mint, cyan and gold highlights.</p>
+
+    <p>It is based on the new Islands UI, so you keep the rounded tool window panels and spacing, recoloured from top to bottom in Osaka Jade.</p>
+
+    <h3>Features</h3>
+    <ul>
+      <li>Full Islands UI theme: tool windows, tabs, popups, dialogs, buttons, toggles and the status bar</li>
+      <li>Matching editor color scheme, applied automatically with the theme</li>
+      <li>Hand tuned highlighting for PHP, Laravel and Blade, plus HTML, JavaScript, TypeScript, CSS, Markdown, YAML, JSON and .env files</li>
+      <li>Console and terminal ANSI colors that match the Osaka Jade terminal palette</li>
+      <li>Comments, line numbers and secondary text lightened for comfortable contrast on the dark background</li>
+    </ul>
+
+    <h3>Palette</h3>
+    <ul>
+      <li>Background <code>#111c18</code>, foreground <code>#C1C497</code></li>
+      <li>Keywords <code>#5ccd86</code>, strings <code>#E5C736</code>, functions <code>#2DD5B7</code></li>
+      <li>Classes <code>#8CD3CB</code>, properties <code>#81B8A8</code>, numbers and constants <code>#D2689C</code></li>
+    </ul>
+
+    <p>After installing, choose <b>Osaka Jade</b> in <i>Settings | Appearance &amp; Behavior | Appearance | Theme</i>.</p>
+
+    <p>Source and issues: <a href="https://github.com/joshdonnell/osaka-jade-phpstorm">github.com/joshdonnell/osaka-jade-phpstorm</a></p>
+  ]]></description>
+
+  <change-notes><![CDATA[
+    <h3>1.0.0</h3>
+    <ul>
+      <li>First release: Osaka Jade Islands UI theme with a matching editor color scheme.</li>
+      <li>Highlighting for PHP, Laravel, Blade, HTML, JavaScript, TypeScript, CSS, Markdown, YAML, JSON and .env.</li>
+      <li>Console colors that match the Osaka Jade terminal palette.</li>
+    </ul>
+  ]]></change-notes>
 
   <extensions defaultExtensionNs="com.intellij">
     <themeProvider id="uk.co.joshdonnell.osaka-jade" path="/themes/OsakaJade.theme.json"/>

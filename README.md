@@ -21,7 +21,7 @@ Comments, line numbers and secondary UI text are a little lighter than Omarchy's
 
 ## Install
 
-You need PhpStorm 2025.3 or later (build 253+). Other JetBrains IDEs on the same build work too.
+You need PhpStorm 2026.2 or later (build 262+). Other JetBrains IDEs on the same build work too.
 
 ```bash
 git clone https://github.com/joshdonnell/osaka-jade-phpstorm.git
