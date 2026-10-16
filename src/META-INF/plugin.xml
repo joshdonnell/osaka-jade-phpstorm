@@ -1,0 +1,13 @@
+<idea-plugin>
+  <id>uk.co.joshdonnell.osaka-jade</id>
+  <name>Osaka Jade Theme</name>
+  <version>1.0.0</version>
+  <vendor email="hello@joshdonnell.co.uk">Josh Donnell</vendor>
+  <description>Omarchy's Osaka Jade palette as a dark Islands theme for PhpStorm and other JetBrains IDEs, with an editor color scheme tuned for PHP, Laravel and Blade.</description>
+  <idea-version since-build="253"/>
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="uk.co.joshdonnell.osaka-jade" path="/themes/OsakaJade.theme.json"/>
+  </extensions>
+</idea-plugin>
