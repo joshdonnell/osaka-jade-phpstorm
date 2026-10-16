@@ -2,6 +2,10 @@
 
 A dark JetBrains theme built from [Omarchy's](https://omarchy.org) Osaka Jade palette. It keeps the rounded Islands layout from PhpStorm 2025.3 and later, and ships with a matching editor color scheme tuned for PHP, Laravel, Blade, JavaScript and CSS.
 
+![A Laravel controller in PhpStorm with the Osaka Jade theme](screenshots/php.png)
+
+![A Blade view with the Laravel tool window open](screenshots/blade.png)
+
 ## Palette
 
 | Role | Color |
